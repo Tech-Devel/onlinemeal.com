@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar{
+    position: relative;
+}
+
+#logo{
+    margin: 5px 7px;
+}
+#navbar ul{
+    display: flex;
+}
+    #navbar::before{
+        content: "";
+        background-color: black;
+        color: white;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: #fff;
+}
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    background-image: url(images/Gym/pic2.jpg);
+    background-repeat: no-repeat;
+    content: "";
+    color: white;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+   margin-top: 335px;
+    opacity: 0.56;
+    margin-bottom: 100px;
+}
+#h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: red
+    font-family: sans-serif;
+}
+#home p{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+          /* center wala part */
+          #section-container{
+              margin-top: 236px;
+              /* background-color: aquamarine; */
+          }
+     .primary-h1{
+         font-size: 30px;
+         font-family: sans-serif;
+         font-weight: bold;
+         text-align: center;
+     }
+     .box{
+         border: 2px solid rgb(206, 74, 74);
+         border-radius: 20px;
+         background-color: gray;
+         width: 500px;
+         margin: 3px 6px;
+         height: 250px;
+     }
+     #box-container{
+         display: flex;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         
+     }
+     .box img{
+         display: block;
+         height: 45%;
+         margin: auto;
+        }
+        .box .heading-2{
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .box p{
+        padding: 10px;
+     }
+               /* client-section */
+     #client-section{
+         height: 50px;
+         /* margin-top: 3px; */
+         /* margin-bottom: 5px; */
+        }
+        #client-section::before{
+         background-color: brown;
+            content: "";
+            color: white;
+            position: absolute;
+            height: 220px;
+            width: 100%;
+            /* z-index: -1 */
+            opacity: 0.3;
+        }
+        .h2{
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        #logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .client-item{
+         padding: 15px;
+
+     }
+     .client-item img{
+           height: 100px;
+     }
+         /* contact section */
+   #contact-section{
+          height: 420px;
+          margin-top: 150px;
+          background-color: rgb(54, 8, 8);
+        color: white;
+   }
+   .h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+   }
+#form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;   
+ 
+}
+#form-box input,
+#form-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+}
+#form-box form{
+    width: 40%;
+}
+#form-box label{
+    font-size:20px;
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+  
